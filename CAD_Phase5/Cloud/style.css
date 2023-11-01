@@ -1,0 +1,79 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p, img, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and style the body text */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #E1AA74;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.blog-post {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px 0;
+    overflow: auto; 
+}
+
+.blog-post h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.blog-post img {
+    max-width: 40%;
+    float: left; 
+    margin: 10px 20px 10px 0;
+}
+
+.blog-post p {
+    color: #666;
+}
+
+.blog-post a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #E1AA74;
+    color: beige;
+    text-align: center;
+    padding: 10px;
+}
+
+a{
+    color: beige;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cntstyles.css">
+    <title>Contact - My Travel Blog</title>
+</head>
+<body>
+    <header>
+        <h1 style="color: #192655; font-family:Lucida Sans; font-size: 40px;">Contact Me</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-form">
+            <h2>Get in Touch for any Queries</h2>
+            <form action="submit.php" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required autocomplete="off">
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required autocomplete="off">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required autocomplete="off"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Travel Blog</p>
+    </footer>
+</body>
+</html>

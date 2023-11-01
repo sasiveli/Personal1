@@ -1,0 +1,66 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+
+header {
+    background-color: #E1AA74;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style the main content area */
+main {
+    padding: 20px;
+}
+
+/* Style the "About Me" section */
+.about-me {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius:30px ;
+}
+
+.about-me h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.about-me img {
+    max-width: 100px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.about-me p {
+    color: #666;
+}
+
+footer {
+    background-color: #E1AA74;
+    color: beige;
+    text-align: center;
+    padding: 10px;
+}
